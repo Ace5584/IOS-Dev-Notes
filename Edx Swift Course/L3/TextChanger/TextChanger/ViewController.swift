@@ -8,7 +8,9 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var Label: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -16,6 +18,7 @@ class ViewController: UIViewController {
 
     @IBAction func textChange(_ sender: UIButton) {
         print("You pressed this button! In @IBAction func textchange")
+        Label.text = "Apple Devloper Documentation"
     }
     
 }

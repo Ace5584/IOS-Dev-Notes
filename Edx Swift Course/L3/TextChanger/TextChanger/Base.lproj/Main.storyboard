@@ -23,9 +23,9 @@
                                     <action selector="textChange:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CHJ-s6-Gzl"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t2e-mF-DhI">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t2e-mF-DhI">
                                 <rect key="frame" x="186" y="404" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -39,6 +39,9 @@
                             <constraint firstItem="uSX-gf-LMy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ol3-A2-1oh"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="Label" destination="t2e-mF-DhI" id="5ig-qU-PZr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
